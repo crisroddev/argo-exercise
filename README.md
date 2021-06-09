@@ -15,8 +15,13 @@
 13. `argocd account update-password`
 
 # Deployment
-5. `create namespace.yaml`
-6. `create configmap.yaml`
-7. `create deployment.yaml`
-8. `create service.yaml`
-9. `kubectl apply -f argocd-nginx.yaml`
+1. `create namespace.yaml`
+2. `create configmap.yaml`
+3. `create deployment.yaml`
+4. `create service.yaml`
+5. `kubectl apply -f argocd-nginx.yaml`
+6. `kubectl get application -n argocd`
+7. `go to argocd in browser and sync`
+8. `kubectl get ns`
+9. `kubectl get deploy -n demo`
+10. `kubectl get svc -n demo`

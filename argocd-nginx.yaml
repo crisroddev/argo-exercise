@@ -9,8 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
+    # path to the folder with the YAML manifests
     path: manifests
-    repoUrl: https://bitbucket.org/crisrodalbagli/code/src/master/argocd-exercise/manifests/
+    repoURL: https://github.com/crisroddev/argo-exercise/
     targetRevision: HEAD
+  # Sync policy
   syncPolicy: {}
- 
